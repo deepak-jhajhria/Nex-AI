@@ -3,6 +3,8 @@ import { BlockChainSec } from "../components/BlockChainSec";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { NexAI } from "../components/NexAI";
+import NexAiCard from "../components/NexAiCardSec";
+import { Roadmap } from "../components/Roadmap";
 import { UniqueSec } from "../components/Unique";
 
 export const Index = () => {
@@ -13,6 +15,8 @@ export const Index = () => {
       <UniqueSec />
       <BlockChainSec />
       <NexAI />
+      <NexAiCard/>
+      <Roadmap/>
       <Footer />
     </>
   );

@@ -12,17 +12,7 @@ export const NexAI = () => {
     { id: 5, title: "NexAi, is the front door locked?" },
     { id: 6, title: "NexAi, Turn of AC." },
   ];
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 3000,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    pauseOnHover: true,
-    arrows: false,
-    cssEase: 'ease'
-  };
+  const settings = {dots:false,infinite:true,speed:3000,slidesToShow:4,slidesToScroll:1,autoplay:true,pauseOnHover:true,arrows:false,cssEase:'ease'};
   return (
     <div className="mt-[200px]">
         <h2 className="font-Recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center">NexAi does all this. And more.</h2>
