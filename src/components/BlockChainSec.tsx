@@ -11,17 +11,7 @@ export const BlockChainSec = () => {
     { id: 5, title: "Security and Privacy" },
     { id: 6, title: "Automated and Transparent Transactions" },
   ];
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    pauseOnHover: true,
-    arrows: false,
-  };
+  const settings = { dots: false, infinite: true, speed: 500, slidesToShow: 3, slidesToScroll: 1, autoplay: true, autoplaySpeed: 1000, pauseOnHover: true, arrows: false,};
   return (
     <div className="mt-[160px] overflow-hidden">
       <h2 className="font-Recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center">Blockchain & AI technology</h2>

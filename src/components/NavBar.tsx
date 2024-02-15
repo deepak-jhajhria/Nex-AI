@@ -19,11 +19,7 @@ export const NavBar = () => {
       <div className=" container max-w-[1200px] flex items-center justify-end py-5">
         <ul className={`${ isOpen ? "right-0" : "-right-full" } flex items-center gap-5 w-[56%] ${mobileCName}`}>
           {navData.map((items) => (
-            <li key={items.id}>
-              <Link onClick={() => setOpen(false)} className={linkCName} to={items.path}>
-                {items.title}
-              </Link>
-            </li>
+            <li key={items.id}><Link onClick={() => setOpen(false)} className={linkCName} to={items.path}>{items.title}</Link></li>
           ))}
         </ul>
         <CommonBtn text="Sign Up" />
