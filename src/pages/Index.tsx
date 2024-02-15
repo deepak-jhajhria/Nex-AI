@@ -1,4 +1,5 @@
 import { AiAssistant } from "../components/AiAssistant";
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Unique } from "../components/Unique";
 
@@ -8,6 +9,7 @@ export const Index = () => {
       <Header />
       <AiAssistant />
       <Unique />
+      <Footer />
     </>
   );
 };
