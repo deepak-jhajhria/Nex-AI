@@ -18,3 +18,7 @@
     height: 0;
     width: 0;
 }
+
+.nexAI .slick-slide {
+    padding: 0 12px;
+}

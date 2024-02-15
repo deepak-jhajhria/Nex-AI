@@ -24,9 +24,9 @@ export const BlockChainSec = () => {
   };
   return (
     <div className="mt-[160px] overflow-hidden">
-      <h3 className="font-Recharge font-bold text-[50px] leading-[50px] text-[#02CDCF] text-center">Blockchain & AI technology</h3>
+      <h2 className="font-Recharge font-bold text-[40px] leading-[50px] text-[#02CDCF] text-center">Blockchain & AI technology</h2>
       <p className=" font-Poppins font-normal text-[16px] leading-[25px] text-[#B7B7B7] text-center max-w-[997px] mx-auto mt-4">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
-      <h3 className=" font-Recharge font-bold text-xl leading-8 text-white max-w-[684px] text-center mx-auto mt-[96px]">By building the software on blockchain, Nexai provides the followingadvantages</h3>
+      <h2 className=" font-Recharge font-bold text-xl leading-8 text-white max-w-[684px] text-center mx-auto mt-[96px]">By building the software on blockchain, Nexai provides the followingadvantages</h2>
         <Slider className="container pt-[60px] max-w-[1140px]" {...settings}>
           {slides.map((slideContent, index) => (
             <div className={`w-full max-w-[367px] min-h-[367px] bg-[url(./assets/png/poliganblockchain.png)] duration-300 hover:scale-90 ${index % 2 === 0 ? "" : "mt-20"}`} key={slideContent.id}>
