@@ -9,3 +9,12 @@
     font-family: "neuropolitical";
     src: url('./assets/font/neuropolitical/neuropoliticalrg.otf');
 }
+
+* {
+    scrollbar-width: unset !important;
+}
+
+*::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
