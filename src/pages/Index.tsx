@@ -1,6 +1,7 @@
 import { AiAssistant } from "../components/AiAssistant";
 import { BlockChainSec } from "../components/BlockChainSec";
 import { Footer } from "../components/Footer";
+import { GetStartedCard } from "../components/GetStartedCard";
 import { Header } from "../components/Header";
 import { NexAI } from "../components/NexAI";
 import NexAiCard from "../components/NexAiCardSec";
@@ -17,6 +18,7 @@ export const Index = () => {
       <NexAI />
       <NexAiCard/>
       <Roadmap/>
+      <GetStartedCard/>
       <Footer />
     </>
   );

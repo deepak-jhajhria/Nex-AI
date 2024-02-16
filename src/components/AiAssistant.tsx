@@ -2,7 +2,7 @@ import aiimg from "../assets/png/aiassistantimg.png";
 import CommonBtn from "./CommonBtn";
 export const AiAssistant = () => {
   return (
-    <div className="relative ">
+    <div className="relative mt-20">
       <div className="container max-w-[1240px] grid grid-cols-2 items-end py-[76px]">
         <div><img src={aiimg} alt="aiimg" /></div>
         <div className="flex flex-col max-w-[517px]">

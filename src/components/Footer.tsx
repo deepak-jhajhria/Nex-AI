@@ -2,7 +2,7 @@ import { FacebookIcon, TwitterIcon } from "./Icons";
 
 export const Footer = () => {
   return (
-    <footer className="w-full min-h-[492px] bg-[url(./assets/png/footerbg.png)] bg-center bg-cover bg-no-repeat">
+    <footer className="w-full min-h-[492px] bg-[url(./assets/png/footerbg.png)] bg-center bg-cover bg-no-repeat mt-[89px]">
       <div className="container max-w-[1140px]">
         <div className="grid grid-cols-3 pt-[150px]">
           <div className="flex flex-col col-span-2 max-w-[356px]">
