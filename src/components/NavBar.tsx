@@ -15,9 +15,9 @@ export const NavBar = () => {
     { id: 5, title: "Tokens", path: "/token" },
   ];
   return (
-    <nav className="absolute top-[10px] w-full">
-      <div className=" container max-w-[1200px] flex items-center justify-end py-5">
-        <ul className={`${ isOpen ? "right-0" : "-right-full" } flex items-center gap-5 w-[56%] ${mobileCName}`}>
+    <nav className="md:absolute top-[10px] w-full">
+      <div className="container max-w-[1200px] flex items-center justify-end py-5">
+        <ul className={`${ isOpen ? "right-0":"-right-full"} flex items-center gap-5 w-[56%] ${mobileCName}`}>
           {navData.map((items) => (
             <li key={items.id}><Link onClick={() => setOpen(false)} className={linkCName} to={items.path}>{items.title}</Link></li>
           ))}

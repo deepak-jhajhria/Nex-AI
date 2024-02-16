@@ -1,11 +1,11 @@
 import { AiAssistant } from "../components/AiAssistant";
 import { BlockChainSec } from "../components/BlockChainSec";
-import { Footer } from "../components/Footer";
-import { GetStartedCard } from "../components/GetStartedCard";
+// import { Footer } from "../components/Footer";
+// import { GetStartedCard } from "../components/GetStartedCard";
 import { Header } from "../components/Header";
-import { NexAI } from "../components/NexAI";
-import NexAiCard from "../components/NexAiCardSec";
-import { Roadmap } from "../components/Roadmap";
+// import { NexAI } from "../components/NexAI";
+// import NexAiCard from "../components/NexAiCardSec";
+// import { Roadmap } from "../components/Roadmap";
 import { UniqueSec } from "../components/Unique";
 
 export const Index = () => {
@@ -15,11 +15,11 @@ export const Index = () => {
       <AiAssistant />
       <UniqueSec />
       <BlockChainSec />
-      <NexAI />
+      {/* <NexAI />
       <NexAiCard/>
       <Roadmap/>
       <GetStartedCard/>
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
