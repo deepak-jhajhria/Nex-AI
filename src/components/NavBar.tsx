@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import CommonBtn from "./CommonBtn";
 import { useOverflowHidden } from "./Hooks";
-import { Rotate as Hamburger } from 'hamburger-react'
+import { Divide as Hamburger } from 'hamburger-react'
 
 export const NavBar = () => {
   const [isOpen, setOpen] = useOverflowHidden(false);

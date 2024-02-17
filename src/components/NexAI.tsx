@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Ellipse } from "./Icons";
 
 export const NexAI = () => {
   const slides: Array<{ id: number; title: string }> = [
@@ -25,10 +26,10 @@ export const NexAI = () => {
     ],
   };
   return (
-    <div className="mt-10 sm:mt-20 md:mt-32 lg:mt-[200px]">
+    <div className="mt-10 sm:mt-20 md:mt-32 lg:mt-[195px] relative overflow-x-clip max-w-[1920px] mx-auto">
         <h2 className="font-Recharge font-bold text-2xl sm:text-3xl md:text-[40px] md:leading-[50px] text-[#02CDCF] text-center px-3 sm:px-0">NexAi does all this. And more.</h2>
         <p className=" font-Poppins font-normal text-sm sm:text-base leading-[25px] text-[#B7B7B7] text-center max-w-[912px] mx-auto mt-2 xs:mt-3 md:mt-4 px-3 sm:px-0"> Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
-        <Slider className="pt-8 sm:pt-[50px] md:pt-[70px] nexAI" {...settings} autoplaySpeed={0}>
+        <Slider className="pt-8 sm:pt-[50px] md:pt-[80px] nexAI" {...settings} autoplaySpeed={0}>
           {slides.map((slideContent) => (
             <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px] px-3`} key={slideContent.id}>
               <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
@@ -55,6 +56,7 @@ export const NexAI = () => {
             </div>
           ))}
         </Slider>
+        <Ellipse cName="-top-[10%] -right-[8%]"/>
     </div>
   );
 };
