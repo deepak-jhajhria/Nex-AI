@@ -16,9 +16,9 @@ export const Index = () => {
       <UniqueSec />
       <BlockChainSec />
       <NexAI />
-      <NexAiCard/>
-      <Roadmap/>
-      <GetStartedCard/>
+      <NexAiCard />
+      <Roadmap />
+      <GetStartedCard />
       <Footer />
     </>
   );
