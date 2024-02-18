@@ -23,7 +23,7 @@ export const Roadmap = () => {
            </div>
        </div>
        <Ellipse cName="bottom-0 -right-[10%]"/>
-       <Ellipse cName="top-[10%] -left-[10%]"/>
+       <Ellipse cName="sm:top-[10%] -left-[10%]"/>
        <img className="absolute -top-[18%] right-0" src={ellipsedoted} alt="ellipse" />
     </div>
   )

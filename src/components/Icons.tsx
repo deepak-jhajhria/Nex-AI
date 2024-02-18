@@ -153,8 +153,10 @@ export const UniSecIconFourth = () => {
     </svg>
   );
 };
-export const Ellipse = (props: { cName: string;})=>{
-  return(
-    <span className={`flex max-w-[150px] md:max-w-[228px] w-full min-h-[248px] rounded-full bg-[#02CDCF] blur-[162px] absolute z-0 ${props.cName}`}></span>
-  )
-}
+export const Ellipse = (props: { cName: string }) => {
+  return (
+    <span
+      className={`flex lg:max-w-[228px] w-[19%] lg:w-full min-h-[248px] rounded-full bg-[#02CDCF] blur-[162px] absolute z-0 ${props.cName}`}
+    ></span>
+  );
+};
