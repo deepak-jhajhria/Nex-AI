@@ -18,7 +18,6 @@ export const useOverflowHidden = (
   return [isOpen, setOpen];
 };
 
-
 export const usePreloader = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -27,7 +26,7 @@ export const usePreloader = () => {
     setTimeout(() => {
       setIsLoading(false);
       document.body.classList.remove("overflow-hidden");
-    }, 3500);
+    }, 0);
   }, []);
   return isLoading;
 };

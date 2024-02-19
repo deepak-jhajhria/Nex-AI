@@ -156,6 +156,8 @@ export const UniSecIconFourth = () => {
 export const Ellipse = (props: { cName: string }) => {
   return (
     <span
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       className={`flex lg:max-w-[228px] w-[19%] lg:w-full min-h-[248px] rounded-full bg-[#02CDCF] blur-[162px] absolute z-0 ${props.cName}`}
     ></span>
   );

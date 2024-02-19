@@ -28,11 +28,11 @@ export const BlockChainSec = () => {
         <Slider className="lg:ml-[10%] pt-8 sm:pt-10 md:pt-[67px] max-lg:container !max-w-[1340px] 2xl:max-w-[1440px]" {...settings}>
           {slides.map((slideContent, index) => (
             <div className={`w-full max-w-[280px] min-h-[280px] sm:max-w-[300px] sm:min-h-[300px] md:max-w-[367px] md:min-h-[367px] bg-[url(./assets/png/poliganblockchain.png)] bg-cover bg-center bg-no-repeat md:bg-[100%,100%] duration-300 hover:scale-90 ${index % 2 === 0 ? "" : "mt-10 sm:mt-16 md:mt-[113px]"}`} key={slideContent.id}>
-              <div className="max-w-[212px] w-full flex justify-center mx-auto mt-[50px] md:mt-[70px] flex-col items-center">
-                <span className="shadow-[0_4px_16px_0_#02CDCF99_inset] w-[58px] h-[58px] flex justify-center items-center rounded-full text-white font-bold font-Recharge leading-[51px] text-[32px]">
+              <div data-aos="fade-up" data-aos-duration="1000" className="max-w-[212px] w-full flex justify-center mx-auto mt-[50px] md:mt-[70px] flex-col items-center">
+                <span data-aos="fade-up" data-aos-duration="2000" className="shadow-[0_4px_16px_0_#02CDCF99_inset] w-[58px] h-[58px] flex justify-center items-center rounded-full text-white font-bold font-Recharge leading-[51px] text-[32px]">
                   {slideContent.id}
                 </span>
-                <h2 className="text-lg md:text-xl font-bold lg:leading-8 text-center text-white font-Recharge mt-5 md:mt-[30px]">
+                <h2 data-aos="fade-up" data-aos-duration="2000" className="text-lg md:text-xl font-bold lg:leading-8 text-center text-white font-Recharge mt-5 md:mt-[30px]">
                   {slideContent.title}
                 </h2>
               </div>

@@ -32,8 +32,8 @@ export const NexAI = () => {
         <Slider className="pt-8 sm:pt-[50px] md:pt-[80px] nexAI" {...settings} autoplaySpeed={0}>
           {slides.map((slideContent) => (
             <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px] px-3`} key={slideContent.id}>
-              <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
-                <h2 className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
+              <div data-aos="fade-up" data-aos-duration="2000" className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
+                <h2 data-aos="fade-up" data-aos-duration="2000" className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
               </div>
             </div>
           ))}
@@ -41,8 +41,8 @@ export const NexAI = () => {
         <Slider className="nexAI" {...settings} slidesToShow={4.5} rtl={true}>
           {slides.map((slideContent) => (
             <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px] px-3`} key={slideContent.id}>
-              <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
-                <h2 className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
+              <div data-aos="fade-up" data-aos-duration="2000" className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
+                <h2 data-aos="fade-up" data-aos-duration="2000" className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
               </div>
             </div>
           ))}
@@ -50,8 +50,8 @@ export const NexAI = () => {
         <Slider className="nexAI" {...settings} slidesToShow={4.1} autoplaySpeed={0}>
           {slides.map((slideContent) => (
             <div className={`w-full max-w-[500px] shadow-[0_4px_20px_0_#02CDCF29] duration-300 rounded-2xl my-[20px] px-3`} key={slideContent.id}>
-              <div className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
-                <h2 className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
+              <div data-aos="fade-up" data-aos-duration="2000" className="max-w-[254px] w-full mx-auto flex justify-center items-center min-h-[220px]">
+                <h2 data-aos="fade-up" data-aos-duration="2000" className="text-lg font-bold leading-9 text-center text-white sm:text-xl lg:text-2xl font-Recharge">{slideContent.title}</h2>
               </div>
             </div>
           ))}
