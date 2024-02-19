@@ -21,7 +21,7 @@ export const BlockChainSec = () => {
     {breakpoint: 1400,settings: {slidesToShow: 3,},},
     ],};
   return (
-    <div className="mt-12 xs:mt-16 sm:mt-20 md:mt-[110px] lg:mt-[153px] overflow-x-clip container max-w-[1920px] relative">
+    <div id="#marketplace" className="mt-12 xs:mt-16 sm:mt-20 md:mt-[110px] lg:mt-[153px] overflow-x-clip container max-w-[1920px] relative">
       <h2 className="font-Recharge font-bold text-2xl sm:text-3xl md:text-[40px] md:leading-[50px] text-[#02CDCF] text-center">Blockchain & AI technology</h2>
       <p className=" font-Poppins font-normal text-sm sm:text-base text-[#B7B7B7] text-center max-w-[997px] mx-auto mt-2 xs:mt-3 md:mt-4 sm:leading-[25.6px]">Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
       <h2 className=" font-Recharge font-bold text-base sm:text-xl leading-8 text-white max-w-[684px] text-center mx-auto mt-6 sm:mt-10 md:mt-[60px] lg:mt-[102px]">By building the software on blockchain, Nexai provides the followingadvantages</h2>
