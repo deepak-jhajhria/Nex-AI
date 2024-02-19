@@ -1,7 +1,7 @@
 import image from '../assets/png/utility-Img.webp'
 import { Ellipse } from './Icons'
 import { RoadmapCmt } from './RoadmapCmt'
-import ellipsedoted from '../assets/png/dotedellipse.png'
+import ellipsedoted from '../assets/images/dotedellipse.webp'
 
 export const Roadmap = () => {
   return (

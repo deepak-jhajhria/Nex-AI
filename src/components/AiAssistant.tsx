@@ -1,4 +1,4 @@
-import aiimg from "../assets/png/aiassistantimg.png";
+import aiimg from "../assets/images/aiassistantimg.webp";
 import CommonBtn from "./CommonBtn";
 import { Ellipse } from "./Icons";
 export const AiAssistant = () => {

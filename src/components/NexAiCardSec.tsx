@@ -1,4 +1,4 @@
-import AI from '../assets/png/AI-img.png'
+import AI from '../assets/images/AI-img.webp'
 import CommonBtn from './CommonBtn'
 const NexAiCard = () => {
     return (

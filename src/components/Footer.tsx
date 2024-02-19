@@ -2,7 +2,7 @@ import { Ellipse, FacebookIcon, TwitterIcon } from "./Icons";
 
 export const Footer = () => {
   return (
-    <footer className="w-full sm:min-h-[492px] bg-[url(./assets/png/footerbg.png)] bg-center bg-cover bg-no-repeat mt-[89px] relative overflow-x-clip">
+    <footer className="w-full sm:min-h-[492px] bg-[url(./assets/images/footerbg.webp)] bg-center bg-cover bg-no-repeat mt-[89px] relative overflow-x-clip">
       <div className="container max-w-[1140px] pt-[30px]">
         <div className="grid grid-cols-1 md:grid-cols-3 pt-8 sm:pt-16 md:pt-[90px] lg:pt-[150px]">
           <div className="flex flex-col md:col-span-2 max-w-[356px]">

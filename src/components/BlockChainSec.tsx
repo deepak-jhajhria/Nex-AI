@@ -2,8 +2,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Ellipse } from "./Icons";
-import ellipsedoted from '../assets/png/dotedellipse.png'
-import ellipsedotedleft from '../assets/png/dotedellipseleft.png'
+import ellipsedoted from '../assets/images/dotedellipse.webp'
+import ellipsedotedleft from '../assets/images/dotedellipseleft.webp'
 export const BlockChainSec = () => {
   const slides: Array<{ id: number; title: string }> = [
     { id: 1, title: "Security and Privacy" },
