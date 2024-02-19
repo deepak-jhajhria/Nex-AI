@@ -14,8 +14,9 @@ export const NavBar = () => {
     { id: 4, title: "NexChat", path: "/nexchat" },
     { id: 5, title: "Tokens", path: "/token" },
   ];
+
   return (
-    <nav className="md:absolute top-[10px] w-full">
+    <div className="md:absolute top-[10px] w-full">
       <div className="container max-w-[1200px] flex items-center justify-end py-5">
         <ul className={`${ isOpen ? "right-0":"-right-full"} flex items-center gap-5 w-[56%] ${mobileCName}`}>
           {navData.map((items) => (
@@ -27,6 +28,6 @@ export const NavBar = () => {
           <Hamburger toggled={isOpen} toggle={setOpen} size={30} rounded distance="sm" direction="right" duration={0.5} color="#02CDCF"/>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };

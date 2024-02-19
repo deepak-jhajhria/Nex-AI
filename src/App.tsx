@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Marketplace } from "./pages/Marketplace";
 import ScrollToTop from "./components/ScrollToTop";
+import { ProgressBar } from "./components/ProgressBar";
 function App() {
   useEffect(() => {
     AOS.init({ once: true });
@@ -29,6 +30,7 @@ function App() {
             <Route path="/token" element={<Marketplace />} />
           </Routes>
           <ScrollToTop />
+          <ProgressBar />
         </div>
       )}
     </>
