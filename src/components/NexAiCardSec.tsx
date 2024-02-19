@@ -3,7 +3,7 @@ import CommonBtn from './CommonBtn'
 const NexAiCard = () => {
     return (
         <div className='px-3 mt-12 xs:mt-16 sm:mt-20 md:mt-[110px] lg:mt-[140px] overflow-x-clip'>
-            <div className="container min-h-[810px] max-w-[1340px] flex items-center px-4 sm:px-8 md:px-10 py-6 sm:py-10 md:py-16 lg:pl-[100px] border border-white rounded-3xl bg-[url('./assets/png/uniqueseccard.png')] bg-no-repeat bg-cover bg-center">
+            <div className="container py-[163px] max-w-[1340px] flex items-center px-4 sm:px-8 md:px-10 lg:pl-[100px] border border-white rounded-3xl bg-[url('./assets/png/uniqueseccard.png')] bg-no-repeat bg-cover bg-center">
                 <div className="grid gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-11">
                     <div data-aos="fade-up" data-aos-duration="1000" className='lg:max-w-[564px] flex flex-col items-start'>
                         <h2 data-aos="fade-up" data-aos-duration="2000" className='text-2xl sm:text-3xl md:text-[40px] font-Recharge font-bold md:leading-[50px] text-[#02CDCF]'>What is NexAi?</h2>

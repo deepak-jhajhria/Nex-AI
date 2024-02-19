@@ -4,7 +4,7 @@ import UniqueSecCard from "./UniqueSecCard";
 export const UniqueSec = () => {
   return (
     <div className="px-3 md:px-8 lg:px-[50px]">
-      <div className="border border-[#FCFCFC] rounded-3xl sm:rounded-[32px] min-h-[550px] md:min-h-[700px] xl:min-h-[800px] mt-12 sm:mt-16 md:mt-[90px] lg:mt-[155px] bg-[url(./assets/png/uniquesecbg.png)] bg-blend-hue bg-no-repeat bg-cover bg-center max-w-[1340px] container overflow-hidden relative">
+      <div className="border border-[#FCFCFC] rounded-3xl sm:rounded-[32px] min-h-[550px] md:min-h-[700px] xl:min-h-[800px] mt-12 sm:mt-16 md:mt-[90px] lg:mt-[155px] bg-[#0F1010] max-w-[1340px] container overflow-hidden relative">
         <div className=" max-w-[1140px] relative flex flex-col justify-between mx-auto z-10">
           <div className="flex flex-col">
             <h2 data-aos="fade-up" data-aos-duration="2000" className="font-bold font-Recharge text-2xl sm:text-3xl md:text-[40px] sm:leading-[50px] text-[#FCFCFC] text-center mt-8 sm:mt-12 xl:mt-20">Unique features</h2>

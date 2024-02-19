@@ -4,7 +4,7 @@ import { Ellipse } from "./Icons";
 export const AiAssistant = () => {
   return (
     <div className="relative mt-6 overflow-x-clip sm:mt-12 lg:mt-[100px] min-h-[585px] flex items-center w-full">
-      <div className="container max-w-[1240px] grid grid-cols-1 lg:grid-cols-2 items-end">
+      <div className="container max-w-[1240px] grid grid-cols-1 lg:grid-cols-2 items-end lg:gap-12">
         <div data-aos="fade-up" data-aos-duration="2000" className="flex justify-center order-2 mt-8 lg:order-1 lg:mt-0"><img className="" src={aiimg} alt="aiimg" /></div>
         <div className="flex flex-col md:max-w-[517px] sm:max-w-[700px] order-1 lg:order-2">
           <h2 data-aos="fade-up" data-aos-duration="2000" className="font-bold font-Recharge text-2xl sm:text-3xl md:text-[40px] sm:leading-[50px] text-[#02CDCF]">Ai-Powered Home Assistant</h2>
