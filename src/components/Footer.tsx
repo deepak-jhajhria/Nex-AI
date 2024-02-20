@@ -1,4 +1,4 @@
-import { Ellipse, FacebookIcon, TwitterIcon } from "./Icons";
+import { Ellipse, FacebookIcon, TelegramIcon, TwitterIcon } from "./Icons";
 
 export const Footer = () => {
   return (
@@ -12,19 +12,19 @@ export const Footer = () => {
             </p>
             <div className="flex items-center gap-3 mt-3 sm:mt-5">
               <a className="duration-300 hover:-translate-y-2" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><span><FacebookIcon /></span></a>
-              <a className="duration-300 hover:-translate-y-2" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><span><TwitterIcon /></span></a>
-              <a className="duration-300 hover:-translate-y-2" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><span><FacebookIcon /></span></a>
+              <a className="duration-300 hover:-translate-y-2" href="http://Twitter.com" target="_blank" rel="noopener noreferrer"><span><TwitterIcon /></span></a>
+              <a className="duration-300 hover:-translate-y-2" href="http://Telegram.com" target="_blank" rel="noopener noreferrer"><span><TelegramIcon /></span></a>
             </div>
           </div>
           <div className="flex justify-between mt-7 xs:mt-10 md:-ml-10 md:-mt-9 lg:ml-0">
             <ul className="flex flex-col gap-2 sm:gap-[14px]">
               <li className="text-base font-bold text-white sm:text-lg font-Recharge">Quick links</li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Home</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Features</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Marketplace</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Tokens</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">NexChat</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">About</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#home">Home</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#">Features</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#marketplace">Marketplace</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#token">Tokens</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#nexchat">NexChat</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#about">About</a></li>
             </ul>
             <ul className="flex flex-col gap-2 sm:gap-[14px]">
               <li className="text-base font-bold text-white sm:text-lg font-Recharge">Information's</li>

@@ -12,7 +12,7 @@ const NexAiCard = () => {
                         <CommonBtn text='Learn More' />
                     </div>
                     <div className='relative flex max-lg:justify-center'>
-                        <span data-aos="fade-up" data-aos-duration="2000" className='bg-[#02CDCF] w-full h-[363px] max-w-[363px] blur-[280px] absolute right-0 top-0 z-0'></span>
+                        <span data-aos="fade-up" data-aos-duration="2000" className='bg-[#02CDCF] w-[48%] md:w-full h-[363px] max-w-[363px] blur-[280px] absolute right-0 top-0 z-0'></span>
                         <img data-aos="fade-up" data-aos-duration="2000" className='max-w-[468px] mix-blend-lighten max-h-[463px] w-full' src={AI} alt="AI-img" />
                     </div>
                 </div>
