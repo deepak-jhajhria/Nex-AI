@@ -28,10 +28,10 @@ export const Footer = () => {
             </ul>
             <ul className="flex flex-col gap-2 sm:gap-[14px]">
               <li className="text-base font-bold text-white sm:text-lg font-Recharge">Information's</li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Contact</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Phone</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">terms</a></li>
-              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="/">Privacy</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#">Contact</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#">Phone</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#">terms</a></li>
+              <li><a className="text-sm font-bold text-white sm:text-base font-Recharge opacity-70 duration-300 hover:opacity-100 hover:text-[#02CDCF]" href="#">Privacy</a></li>
             </ul>
           </div>
         </div>
