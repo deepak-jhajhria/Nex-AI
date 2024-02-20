@@ -26,7 +26,7 @@ export const NexAI = () => {
     ],
   };
   return (
-    <div className="mt-10 sm:mt-20 md:mt-32 lg:mt-[195px] relative overflow-x-clip max-w-[1920px] mx-auto">
+    <div id="nexchat" className="mt-10 sm:mt-20 md:mt-32 lg:mt-[195px] relative overflow-x-clip max-w-[1920px] mx-auto">
         <h2 className="font-Recharge font-bold text-2xl sm:text-3xl md:text-[40px] md:leading-[50px] text-[#02CDCF] text-center px-3 sm:px-0">NexAi does all this. And more.</h2>
         <p className=" font-Poppins font-normal text-sm sm:text-base leading-[25px] text-[#B7B7B7] text-center max-w-[912px] mx-auto mt-2 xs:mt-3 md:mt-4 px-3 sm:px-0"> Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
         <Slider className="pt-8 sm:pt-[50px] md:pt-[80px] nexAI" {...settings} autoplaySpeed={0}>

@@ -1,6 +1,6 @@
 import { Ellipse, UniSecIconFirst, UniSecIconFourth, UniSecIconSecond, UniSecIconThird,} from "./Icons";
 import UniqueSecCard from "./UniqueSecCard";
-
+import glob from '../assets/png/uniquesecai.png'
 export const UniqueSec = () => {
   return (
     <div className="px-3 md:px-8 lg:px-[50px]">
@@ -25,6 +25,7 @@ export const UniqueSec = () => {
             </div>
           </div>
         </div>
+        <img className="absolute top-[30%] left-1/2 -translate-x-1/2" src={glob} alt="glob" />
         <Ellipse cName="bottom-0 -left-[10%]"/>
         <Ellipse cName="top-[10%] -right-[10%]"/>
       </div>
