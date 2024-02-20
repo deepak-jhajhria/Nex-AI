@@ -3,7 +3,6 @@ import { useOverflowHidden } from "./Hooks";
 import {  Divide as Hamburger } from 'hamburger-react'
 import { Ellipse } from "./Icons";
 import ellipsedoted from '../assets/images/dotedellipse.webp'
-import ellipsedotedleft from '../assets/images/dotedellipseleft.webp'
 export const NavBar = () => {
   const [isOpen, setOpen] = useOverflowHidden(false);
   const linkCName: string ="text-base font-normal text-white font-Poppins navLinks";
@@ -30,11 +29,14 @@ export const NavBar = () => {
         </div>
       </div>
       {isOpen && <div className="relative min-h-screen">
-        <Ellipse cName="top-[40%] -left-[10%] !z-[110]"/>
+        <Ellipse cName="top-[40%] right-[10%] !z-[110]"/>
         <Ellipse cName="top-[10%] -right-[13%] !z-[110]"/>
         <img className="absolute top-0 right-0 max-sm:w-[13%] !z-[110]" src={ellipsedoted} alt="ellipse" />
-        <img className="absolute left-0 bottom-[26%] max-sm:w-[13%] !z-[110]" src={ellipsedotedleft} alt="ellipse" />
         </div>}
+        {isOpen && (
+                <div onClick={() => setOpen(false)} className='w-full bg-[rgba(0,0,0,0.78)] flex h-full fixed top-0 left-0 z-30'>
+                </div>
+            )}
     </div>
   );
 };
