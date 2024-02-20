@@ -13,7 +13,7 @@ export const BlockChainSec = () => {
     { id: 5, title: "Security and Privacy" },
     { id: 6, title: "Automated and Transparent Transactions" },
   ];
-  const settings = { dots: false, infinite: true, speed: 1500, slidesToShow: 3.2, slidesToScroll: 1, autoplay: true, autoplaySpeed: 0, pauseOnHover: true, arrows: false,responsive: [
+  const settings = { dots: false, infinite: true, speed: 3000, slidesToShow: 3.2, slidesToScroll: 1, autoplay: true, autoplaySpeed: 3000, pauseOnHover: true, arrows: false,responsive: [
     {breakpoint: 457,settings: {slidesToShow: 1,},},
     {breakpoint: 540,settings: {slidesToShow: 1.5,},},
     {breakpoint: 600,settings: {slidesToShow: 1.8,},},
