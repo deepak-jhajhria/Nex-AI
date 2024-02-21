@@ -22,10 +22,7 @@ export const ProgressBar = () => {
   }, []);
   return (
     <div className="overflow-hidden">
-      <span
-        ref={progressBarRef}
-        className="fixed top-0 -left-[2px] flex bg-[#02CDCF] h-1 md:h-[6px] rounded-full"
-      ></span>
+      <span ref={progressBarRef} className="fixed top-0 -left-[2px] flex bg-[#02CDCF] h-1 md:h-[6px] rounded-full"></span>
     </div>
   );
 };
